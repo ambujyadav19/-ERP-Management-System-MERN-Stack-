@@ -1,0 +1,25 @@
+{
+  "name": "enterprise-erp-suite",
+  "version": "1.0.0",
+  "description": "Full-Stack Enterprise Resource Planning (ERP) System - MERN Stack",
+  "scripts": {
+    "start": "npm run start --prefix backend",
+    "server": "npm run start --prefix backend",
+    "client": "npm run dev --prefix frontend",
+    "seed": "npm run seed --prefix backend",
+    "test": "npm run test --prefix backend",
+    "build": "npm run build --prefix frontend"
+  },
+  "keywords": [
+    "erp",
+    "mern",
+    "inventory",
+    "sales-orders",
+    "purchase-orders",
+    "grn",
+    "invoicing",
+    "rbac"
+  ],
+  "author": "Antigravity Team",
+  "license": "ISC"
+}
